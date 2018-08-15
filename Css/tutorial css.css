@@ -1,0 +1,96 @@
+/* Memasukkan background */
+
+body {
+    background-color: darkorange;
+}
+/* Memasukkan Font */
+@font-face {
+    font-family: "font";
+    src: url("Font/font.otf")
+}
+
+@font-face {
+    font-family: "try";
+    src: url("Font/Hello.otf")
+}
+
+#try {
+    font-family: "font";
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.learn {
+    font-family: "try";
+    font-size: 20px;
+    color: dimgray;
+}
+/* memnuat padding */
+#box {
+    width: 200px;
+    height: 100px;
+    /* Atas kiri bawah kanan */
+    padding: 20px 3px 10px 30px;
+    background: aqua;
+}
+
+#float li {
+    float: left;
+    padding: 25px;
+}
+
+#dotted {
+    width: 200px;
+    height: 150px;
+    border: dotted 5px;
+    margin-left: 200px;
+}
+#dashed {
+    width: 200px;
+    height: 150px;
+    border: dashed 5px;
+    margin-left: 200px;
+}
+
+#double {
+    width: 200px;
+    height: 150px;
+    border: double 5px;
+    margin-left: 200px;
+}
+
+#solid {
+    width: 200px;
+    height: 150px;
+    border: solid 5px;
+    margin-left: 200px;
+}
+
+#inset {
+    width: 200px;
+    height: 150px;
+    border: inset 5px;
+    margin-left: 200px;
+}
+
+#outset {
+    width: 200px;
+    height: 150px;
+    border: outset 5px;
+    margin-left: 200px;
+}
+
+/* Cara membuat span
+    border radius digunakan untuk membuat sudut tumpul pada span
+    box shadow digunakan untuk membuat bayangan pada Span*/
+#span {
+    width: 200px;
+    height: 150px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    float: left;
+    background: grey;
+    /* kanan atas,kiri atas,kanan bawah,kiri bawah */
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px aqua;
+}
