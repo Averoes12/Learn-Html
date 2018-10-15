@@ -1,0 +1,52 @@
+body {
+    background: grey;
+}
+
+.try {
+    color: chartreuse;
+    outline-color: black;
+    text-decoration: underline;
+}
+/*masukin font custom */
+
+@font-face {
+    font-family: "halo";
+    src: url("oo.otf")
+}
+
+
+
+@font-face {
+    font-family: "custom";
+    src: url("font.otf");
+}
+
+#hont {
+    font-family: "halo";
+    font-size: 20px;
+    color: darkturquoise;
+}
+
+.font {
+    font-family: "Hello2";
+    font-size: 20px;
+}
+
+#custom {
+    color:cyan;
+    font-family: "custom";
+    font-size: 30px;
+}
+
+#box {
+    width: 200px;
+    height: 50px;
+    background: white;
+    padding: 20px 3px 40px 40px;
+    margin-left: 500px;
+}
+
+#menu li {
+    float: left;
+    padding: 30px;
+}

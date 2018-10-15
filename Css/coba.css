@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "gg";
+    src: url("oo.otf");
+}
+
+#Font {
+    font-family: "gg";
+}
