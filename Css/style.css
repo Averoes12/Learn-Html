@@ -10,6 +10,7 @@ body {
 /*masukin font custom */
 
 @font-face {
+<<<<<<< HEAD
     font-family: "halo";
     src: url("oo.otf")
 }
@@ -27,6 +28,26 @@ body {
     color: darkturquoise;
 }
 
+=======
+    font-family: "hello";
+    src: url("Font/Hello.otf");
+}
+@font-face {
+    font-family: "Hello2";
+    src: url("Font/Hello2.otf");
+}
+
+@font-face {
+    font-family: "custom";
+    src: url("Font/font.otf");
+}
+
+#Font {
+    color: black;
+    font-family: "Hello";
+    font-size: 20px;
+}
+>>>>>>> b75080ce78a8dd30d24d756515d29ce6941ef232
 .font {
     font-family: "Hello2";
     font-size: 20px;
@@ -35,7 +56,11 @@ body {
 #custom {
     color:cyan;
     font-family: "custom";
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 50px;
+>>>>>>> b75080ce78a8dd30d24d756515d29ce6941ef232
 }
 
 #box {
@@ -48,5 +73,9 @@ body {
 
 #menu li {
     float: left;
+<<<<<<< HEAD
     padding: 30px;
+=======
+    padding: 10px;
+>>>>>>> b75080ce78a8dd30d24d756515d29ce6941ef232
 }

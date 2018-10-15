@@ -2,6 +2,7 @@
 
 body {
     background-color: darkorange;
+<<<<<<< HEAD
     font-family: "font.otf";
 }
 /* Memasukkan Font */
@@ -19,6 +20,30 @@ body {
 #coba {
     font-family: "coba";
     color: aliceblue;
+=======
+}
+/* Memasukkan Font */
+@font-face {
+    font-family: "font";
+    src: url("Font/font.otf")
+}
+
+@font-face {
+    font-family: "try";
+    src: url("Font/Hello.otf")
+}
+
+#try {
+    font-family: "font";
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.learn {
+    font-family: "try";
+    font-size: 20px;
+    color: dimgray;
+>>>>>>> b75080ce78a8dd30d24d756515d29ce6941ef232
 }
 /* memnuat padding */
 #box {
